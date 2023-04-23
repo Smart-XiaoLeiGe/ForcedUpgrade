@@ -9,8 +9,8 @@ import Foundation
 import SwiftUI
 
 struct ShowModel: Hashable, Codable {
-    var showAlertView: Bool
-    var forceUpgrade: Bool
-    var title: String
-    var description: String
+    var showAlertView: Bool = false
+    var forceUpgrade: Bool = false
+    var title: String = ""
+    var description: String = ""
 }

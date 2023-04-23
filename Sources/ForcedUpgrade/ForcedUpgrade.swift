@@ -2,9 +2,7 @@ import SwiftUI
 
 @available(iOS 13.0, *)
 public struct ForcedUpgrade {
-    public init() {
-        
-    }
+    public init() {}
 
     public func alertView(response json: String) -> AlertView? {
         let logic = CheckLogic()
